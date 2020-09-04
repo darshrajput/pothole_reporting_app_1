@@ -9,18 +9,19 @@
 
     <ImageView
         android:id="@+id/ReportImage"
-        android:layout_width="372dp"
-        android:layout_height="576dp"
+        android:layout_width="340dp"
+        android:layout_height="520dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
+        android:background="#696969"
+        android:contentDescription="@string/description"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/btnCaptureImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription">
+        app:layout_constraintTop_toTopOf="parent">
 
     </ImageView>
 
