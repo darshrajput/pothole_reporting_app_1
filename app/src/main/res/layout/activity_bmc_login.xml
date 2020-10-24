@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    tools:context=".UserSignUp">
+    tools:context=".UserLogin">
 
     <LinearLayout
         android:layout_centerVertical="true"
@@ -19,84 +19,56 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/user_register"
+            android:text="@string/bmc_login"
             android:textAlignment="center"
             android:id="@+id/textView"
             android:textSize="35sp"
             android:textStyle="bold"
+            android:fontFamily="@font/sourcesanspro_regular"
             android:textColor="#696969"
             android:layout_gravity="center_horizontal"/>
 
         <EditText
-            android:id="@+id/editTextFullName"
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:background="@drawable/edittext_bg"
-            android:layout_height="wrap_content"
-            android:hint="@string/full_name"
-            android:inputType="textPersonName"
-            tools:ignore="Autofill" />
-
-        <EditText
             android:id="@+id/editTextEmail"
             android:layout_margin="15dp"
-            android:layout_width="match_parent"
             android:background="@drawable/edittext_bg"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_email"
+            android:textColor="#000000"
             android:inputType="textEmailAddress"
             tools:ignore="Autofill" />
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_margin="15dp"
-            android:background="@drawable/edittext_bg"
             android:layout_width="match_parent"
+            android:background="@drawable/edittext_bg"
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_password"
             android:inputType="textPassword"
             tools:ignore="Autofill" />
 
-        <EditText
-            android:id="@+id/editTextConfirmPassword"
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:background="@drawable/edittext_bg"
-            android:layout_height="wrap_content"
-            android:hint="@string/confirm_your_password"
-            android:inputType="textPassword"
-            tools:ignore="Autofill" />
-
-        <EditText
-            android:id="@+id/editTextMobileNo"
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:background="@drawable/edittext_bg"
-            android:layout_height="wrap_content"
-            android:hint="@string/mobile_no"
-            android:inputType="numberDecimal"
-            tools:ignore="Autofill" />
-
         <Button
             android:layout_margin="15dp"
-            android:id="@+id/buttonSignUp"
-            android:text="@string/user_signup"
-            android:layout_width="match_parent"
+            android:background="@drawable/button_bg"
+            android:id="@+id/buttonSignIn"
+            android:text="@string/user_signin"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textAppearance="@style/TextAppearance.AppCompat.Button"
             android:textColor="#FFFFFF"
-            android:background="@drawable/button_bg"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textViewSignIn"
+            android:id="@+id/textViewSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/already_registered_sign_in_here"
+            android:text="@string/not_have_a_account_signup_here"
             android:textAlignment="center"
             android:textColor="#696969"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
     </LinearLayout>
 

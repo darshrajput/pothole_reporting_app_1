@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/user_register"
+            android:text="@string/bmc_register"
             android:textAlignment="center"
             android:id="@+id/textView"
             android:textSize="35sp"

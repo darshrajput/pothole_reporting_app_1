@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">SPothole</string>
-    <string name="reportButton">Report Pothole</string>
+    <string name="bmc_login">BMC Login</string>
     <string name="quote">Potholes are the Mondays in the road of life. Help us remove them.</string>
     <string name="user_login">User Login</string>
     <string name="user_register">User Registration</string>
+    <string name="bmc_register">BMC Registration</string>
     <string name="user_signin">Sign In</string>
     <string name="user_signup">Sign Up</string>
     <string name="enter_your_email">Email</string>

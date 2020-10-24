@@ -30,19 +30,19 @@
         android:text="@string/quote"
         android:textColor="#696969"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/loginButtonOnHome"
+        app:layout_constraintBottom_toTopOf="@+id/UserloginButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/loginButtonOnHome"
+        android:id="@+id/UserloginButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:background="@drawable/button_bg"
-        android:text="@string/reportButton"
+        android:text="@string/user_login"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -51,5 +51,23 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/BMCloginButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/bmc_login"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserloginButton" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
