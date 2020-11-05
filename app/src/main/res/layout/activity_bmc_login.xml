@@ -52,7 +52,7 @@
         <Button
             android:layout_margin="15dp"
             android:background="@drawable/button_bg"
-            android:id="@+id/buttonSignIn"
+            android:id="@+id/buttonBmcSignIn"
             android:text="@string/user_signin"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textViewSignUp"
+            android:id="@+id/textViewBmcSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/not_have_a_account_signup_here"

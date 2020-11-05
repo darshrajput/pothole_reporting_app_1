@@ -13,6 +13,7 @@
     <string name="already_registered_sign_in_here">Already Registered? Sign In here.</string>
     <string name="full_name">Full Name</string>
     <string name="mobile_no">Mobile No.</string>
+    <string name="id_no">ID No.</string>
     <string name="confirm_your_password">Confirm Password</string>
     <string name="capture_image">Capture Image </string>
     <string name="confirm_upload">Confirm and Upload</string>

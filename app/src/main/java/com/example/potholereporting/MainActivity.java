@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 openNewActivity();
             }
             public void openNewActivity(){
-                Intent newActivity = new Intent(MainActivity.this, UserLogin.class);
+                Intent newActivity = new Intent(MainActivity.this, BmcLogin.class);
                 startActivity(newActivity);
             }
         });

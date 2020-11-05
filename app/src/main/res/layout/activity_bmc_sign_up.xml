@@ -68,6 +68,16 @@
             tools:ignore="Autofill" />
 
         <EditText
+            android:id="@+id/editTextId"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/edittext_bg"
+            android:layout_height="wrap_content"
+            android:hint="@string/id_no"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill" />
+
+        <EditText
             android:id="@+id/editTextMobileNo"
             android:layout_margin="15dp"
             android:layout_width="match_parent"
@@ -79,7 +89,7 @@
 
         <Button
             android:layout_margin="15dp"
-            android:id="@+id/buttonSignUp"
+            android:id="@+id/buttonBmcSignUp"
             android:text="@string/user_signup"
             android:layout_width="match_parent"
             android:textSize="20sp"
@@ -90,7 +100,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textViewSignIn"
+            android:id="@+id/textViewBmcSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/already_registered_sign_in_here"

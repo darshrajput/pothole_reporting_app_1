@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BmcSignUp"></activity>
+        <activity android:name=".ViewPotholes"></activity>
+        <activity android:name=".BmcSignUp" />
         <activity android:name=".BmcLogin" />
         <activity android:name=".ReportPothole" />
         <activity android:name=".UserSignUp" />
